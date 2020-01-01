@@ -299,14 +299,14 @@ wait.until { driver.window_handles.length == 2 }
 
 #Loop through until we find a new window handle
 driver.window_handles.each do |handle|
-    if handle != original_window
-        driver.switch_to.window handle
-        break
-    end
+  if handle != original_window
+    driver.switch_to.window handle
+    break
+  end
 end
 
 #Wait for the new tab to finish loading content
-wait.until { driver.title == 'Selenium documentation'}
+wait.until { driver.title == 'Selenium documentation' }
   {{< / code-panel >}}
   {{< code-panel language="javascript" >}}
 //Store the ID of the original window
