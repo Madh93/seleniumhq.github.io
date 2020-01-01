@@ -594,9 +594,9 @@ try {
   {{< / code-panel >}}
   {{< code-panel language="ruby" >}}
 begin
-    #WebDriver code here...
+  #WebDriver code here...
 ensure
-    driver.quit
+  driver.quit
 end
   {{< / code-panel >}}
   {{< code-panel language="javascript" >}}
