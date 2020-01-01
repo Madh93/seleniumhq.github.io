@@ -660,7 +660,7 @@ driver.FindElement(By.TagName("button")).Click();
   {{< / code-panel >}}
   {{< code-panel language="ruby" >}}
 # This won't work
-driver.find_element(:tag_name,'button').click
+driver.find_element(tag_name: 'button').click
   {{< / code-panel >}}
   {{< code-panel language="javascript" >}}
 // This won't work
@@ -717,13 +717,13 @@ driver.FindElement(By.TagName("button")).Click();
   {{< / code-panel >}}
   {{< code-panel language="ruby" >}}
 # Store iframe web element
-iframe = driver.find_element(:css,'#modal > iframe')
+iframe = driver.find_element(css: '#modal > iframe')
 
 # Switch to the frame
 driver.switch_to.frame iframe
 
 # Now, Click on the button
-driver.find_element(:tag_name,'button').click
+driver.find_element(tag_name: 'button').click
   {{< / code-panel >}}
   {{< code-panel language="javascript" >}}
 // Store the web element
@@ -785,7 +785,7 @@ driver.FindElement(By.TagName("button")).Click();
 driver.switch_to.frame 'buttonframe'
 
 # Now, Click on the button
-driver.find_element(:tag_name,'button').click
+driver.find_element(tag_name: 'button').click
   {{< / code-panel >}}
   {{< code-panel language="javascript" >}}
 // Using the ID
