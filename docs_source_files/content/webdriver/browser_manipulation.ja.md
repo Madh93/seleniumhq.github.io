@@ -821,7 +821,7 @@ queried using _window.frames_ in JavaScript.
 driver.switchTo().frame(1);
   {{< / code-panel >}}
   {{< code-panel language="ruby" >}}
-# Switch to the second frame
+# Switches to the second frame
 driver.switch_to.frame(1)
   {{< / code-panel >}}
   {{< code-panel language="csharp" >}}
@@ -829,11 +829,8 @@ driver.switch_to.frame(1)
 driver.SwitchTo().Frame(1);
   {{< / code-panel >}}
   {{< code-panel language="python" >}}
-# switching to second iframe based on index
-iframe = driver.find_elements_by_tag_name('iframe')[1]
-
-# switch to selected iframe
-driver.switch_to.frame(iframe)
+# Switches to the second frame
+driver.switch_to.frame(1)
   {{< / code-panel >}}
   {{< code-panel language="javascript" >}}
 // Switches to the second frame
