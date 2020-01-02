@@ -955,7 +955,7 @@ Restores the window and sets the window size.
   {{< code-panel language="java" >}}driver.manage().window().setSize(new Dimension(1024, 768));{{< / code-panel >}}
   {{< code-panel language="python" >}}driver.set_window_size(1024, 768){{< / code-panel >}}
   {{< code-panel language="csharp" >}}driver.Manage().Window.Size = new Size(1024, 768);{{< / code-panel >}}
-  {{< code-panel language="ruby" >}}driver.manage.window.resize_to(1024,768){{< / code-panel >}}
+  {{< code-panel language="ruby" >}}driver.manage.window.resize_to(1024, 768){{< / code-panel >}}
   {{< code-panel language="javascript" >}}await driver.manage().window().setRect({ width: 1024, height: 768 });{{< / code-panel >}}
   {{< code-panel language="kotlin" >}}driver.manage().window().size(Dimension(1024, 768)){{< / code-panel >}}
 {{< / code-tab >}}
@@ -1038,7 +1038,7 @@ driver.set_window_position(0, 0)
 driver.Manage().Window.Position = new Point(0, 0);
   {{< / code-panel >}}
   {{< code-panel language="ruby" >}}
-driver.manage.window.move_to(0,0)
+driver.manage.window.move_to(0, 0)
   {{< / code-panel >}}
   {{< code-panel language="javascript" >}}
 // Move the window to the top left of the primary monitor
